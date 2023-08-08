@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Login Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_here_to_login">Click here to login</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="find_similar_images">Find similar images</string>
+    <string name="next_month">Next Month</string>
+    <string name="next_day">Next Day</string>
+    <string name="main_page">Main Page</string>
+    <string name="log_n">Logın</string>
+    <string name="logout">logout</string>
+    <string name="card_game">Card Game</string>
+    <string name="math">Math</string>
+    <string name="click_game">Click Game</string>
+    <string name="number_game">Number Game</string>
+    <string name="days_months">Days/Months</string>
+    <string name="seasons">Seasons</string>
+    <string name="main_page2">Main Page</string>
+    <string name="multiplication_excersize">Multiplication excersize</string>
+    <string name="multiplication_excersize_2">Multiplication excersize 2</string>
+    <string name="multiplication_table">Multiplication table</string>
+    <string name="main_page3">Main Page</string>
+    <string name="t">T</string>
+    <string name="f">F</string>
+    <string name="check">Check</string>
+    <string name="go">go</string>
+    <string name="what_was_the_number">what was the number?</string>
+    <string name="backward_manner">Backward manner</string>
+    <string name="regular_order">regular order</string>
+    <string name="reg_ster">Regıster</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="fall">Fall</string>
+    <string name="spring">Spring</string>
+    <string name="main_menu">Main menu</string>
+</resources>

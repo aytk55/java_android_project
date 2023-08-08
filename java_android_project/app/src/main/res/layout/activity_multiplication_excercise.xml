@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".math.MultiplicationExcercise"
+    android:background="@drawable/mathexcercisbackground">
+
+    <TextView
+        android:id="@+id/doğru"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="112dp"
+        android:background="#09F813"
+        android:text="@string/t"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/chrono"
+        android:layout_width="115dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/design2"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/soru"
+        android:layout_width="108dp"
+        android:layout_height="77dp"
+        android:background="@color/white"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/textView8"
+        android:layout_width="59dp"
+        android:layout_height="76dp"
+        android:text="="
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/soru"
+        app:layout_constraintStart_toEndOf="@+id/soru"
+        app:layout_constraintTop_toTopOf="@+id/soru"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/cevap"
+        android:layout_width="98dp"
+        android:layout_height="76dp"
+        android:background="@color/white"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#FD0505"
+        android:id="@+id/yanlış"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:text="@string/f"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/doğru"
+        app:layout_constraintStart_toEndOf="@+id/doğru" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/checkImage"
+        android:layout_width="104dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkButton"
+        app:layout_constraintEnd_toEndOf="@+id/checkButton"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/checkButton"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="110dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+
+        android:textColor="#FF3E00"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/doğru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chrono"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

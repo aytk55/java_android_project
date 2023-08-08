@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".math.MultiplicationTable">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFECB3">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x0"
+                android:background="#6E35EF"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x1=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x2=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x3=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x4=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x5=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x6=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x7=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x8=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x9=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0x10=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#285E02"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x1"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x1=1"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x2=2"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x3=3"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x4=4"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x5=5"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x6=6"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x7=7"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x8=8"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x9=9"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1x10=10"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x2"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x1=2"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x2=4"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x3=6"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x4=8"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x5=10"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x6=12"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x7=14"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x8=16"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x9=18"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2x10=20"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/teal_700"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x3"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x1=3"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x2=6"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x3=9"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x4=12"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x5=15"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x6=18"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x7=21"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x8=24"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x9=27"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3x10=30"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#F10303"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x4"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x1=4"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x2=8"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x3=12"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x4=16"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x5=20"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x6=24"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x7=28"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x8=32"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x9=36"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4x10=40"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#FD5305"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x5"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x1=5"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x2=10"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x3=15"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x4=20"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x5=25"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x6=30"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x7=35"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x8=40"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x9=45"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5x10=50"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#05A572"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x6"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x1=6"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x2=12"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x3=18"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x4=24"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x5=30"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x6=36"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x7=42"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x8=48"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x9=54"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6x10=60"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/teal_700"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x7"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x1=7"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x2=14"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x3=21"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x4=28"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x5=35"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x6=42"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x7=49"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x8=56"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x9=63"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7x10=70"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#706100"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x8"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x1=8"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x2=16"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x3=24"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x4=32"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x5=40"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x6=48"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x7=56"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x8=64"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x9=72"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8x10=80"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#019857"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x9"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x1=9"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x2=18"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x3=27"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x4=36"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x5=45"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x6=54"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x7=63"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x8=72"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x9=81"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="9x10=90"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:background="#F802D7"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="x10"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x0=0"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x1=10"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x2=20"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x3=30"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x4=40"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x5=5"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x6=60"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x7=70"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x8=80"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x9=90"
+                android:layout_marginStart="150dp"
+
+                />
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="10x10=100"
+                android:layout_marginStart="150dp"
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

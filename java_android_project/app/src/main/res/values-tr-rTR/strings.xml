@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Register</string>
+    <string name="email">Email</string>
+    <string name="password">Sifre</string>
+    <string name="click_here_to_login">Giris yapmak icin tıkla</string>
+    <string name="click_here_to_register">Kayıt olmak icin tıkla</string>
+    <string name="find_similar_images">Aynı resimleri bul</string>
+    <string name="next_month">Sonraki Ay</string>
+    <string name="next_day">Sonraki Gün</string>
+    <string name="main_page">Anasayfa</string>
+    <string name="log_n">Giris</string>
+    <string name="logout">Cıkıs</string>
+    <string name="card_game">Kart Oyunu</string>
+    <string name="math">Matematik</string>
+    <string name="click_game">Tıklama Oyunu</string>
+    <string name="number_game">Sayı Oyunu</string>"
+    <string name="days_months">Günler/Aylar</string>
+    <string name="seasons">Mevsimler</string>
+    <string name="main_page2">Anasayfa</string>
+    <string name="multiplication_excersize">Carpma Egzersizi</string>
+    <string name="multiplication_excersize_2">Carpma Egzersizi 2</string>
+    <string name="multiplication_table">Carpım Tablosu</string>
+    <string name="main_page3">Anasayfa</string>
+    <string name="t">D</string>
+    <string name="f">Y</string>
+    <string name="check">Kontrol</string>
+    <string name="go">Kontrol</string>
+    <string name="what_was_the_number">Sayıyı giriniz</string>
+    <string name="backward_manner">Tersten Hatırla</string>
+    <string name="regular_order">Normal Sıralı</string>
+    <string name="reg_ster">Kayıt ol</string>
+    <string name="summer">Yaz</string>
+    <string name="winter">Kıs</string>
+    <string name="fall">Ilkbahar</string>
+    <string name="spring">Sonbahar</string>
+    <string name="main_menu">Anasayfa</string>
+</resources>
